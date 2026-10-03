@@ -8,7 +8,7 @@ Open `index.html` in a browser. No build step or package installation is require
 
 ## Project files
 
-- `index.html` - clinic landing page, both doctor profiles, visit information, WhatsApp and telephone contact, and directions.
+- `index.html` - clinic landing page, both doctor profiles, visit information, a single WhatsApp appointment button, telephone contact, and directions.
 - `assets/clinic.css` - responsive layout and visual styles.
 - `assets/clinic.js` - accessible mobile navigation and current-year footer.
 - `assets/clinic-mark.svg` - clinic favicon.
