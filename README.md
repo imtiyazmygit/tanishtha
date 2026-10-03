@@ -15,4 +15,8 @@ Open `index.html` in a browser. No build step or package installation is require
 
 Appointment enquiries use WhatsApp at `+91 96764 62870`; direct calls use the same number. The address and map link use the details supplied by the clinic: Flat G-1, Neha Residency, Samanthapuri Colony Road, New Nagole, Hyderabad, Telangana 500035. Confirm timings, fees and services with the clinic before publishing or visiting.
 
+## Temporary demo
+
+The public demo is published with GitHub Pages at <https://imtiyazmygit.github.io/tanishtha/>.
+
 The existing legacy CardioCare template files are not used by the landing page and redirect to it. Their original design/code attribution remains with [K29Solutions](https://www.templatemonster.com/authors/k29solutions/) and [ThemeWagon](https://themewagon.com/).
