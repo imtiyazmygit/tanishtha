@@ -12,6 +12,7 @@ Open `index.html` in a browser. No build step or package installation is require
 - `assets/clinic.css` - responsive layout and visual styles.
 - `assets/clinic.js` - accessible mobile navigation and current-year footer.
 - `assets/clinic-mark.svg` - clinic favicon.
+- `assets/dr-a-santosh-kumar.png` and `assets/dr-s-sangeetha-santosh.jpg` - doctor profile photos.
 
 Appointment enquiries use WhatsApp at `+91 96764 62870`; direct calls use the same number. The address and map link use the details supplied by the clinic: Flat G-1, Neha Residency, Samanthapuri Colony Road, New Nagole, Hyderabad, Telangana 500035. Confirm timings, fees and services with the clinic before publishing or visiting.
 
