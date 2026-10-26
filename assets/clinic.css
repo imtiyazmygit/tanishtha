@@ -80,10 +80,11 @@ img, svg { display: block; max-width: 100%; }
 .floating-note strong { display: block; color: var(--brand); font-size: .92rem; }
 
 .care-section { background: #fffef7; }
-.care-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.care-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
 .care-card { position: relative; min-height: 245px; padding: 28px; overflow: hidden; border: 1px solid var(--line); border-radius: 18px; background: #fff; transition: transform .2s, box-shadow .2s; }
 .care-card::before { position: absolute; top: 0; right: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--brand) 0 72%, var(--accent) 72%); content: ""; }
 .care-card:hover { transform: translateY(-4px); box-shadow: 0 14px 36px rgba(23,59,58,.08); }
+.care-photo { width: calc(100% + 56px); height: 160px; max-width: none; margin: -28px -28px 20px; border-bottom: 1px solid var(--line); background: #f6f3df; object-fit: contain; object-position: left center; }
 .care-icon { width: 48px; height: 48px; display: grid; place-items: center; margin-bottom: 22px; border-radius: 15px; background: var(--brand-light); color: var(--brand); }
 .care-card h3 { margin: 0; font-family: "DM Serif Display", Georgia, serif; font-size: 1.45rem; font-weight: 400; }
 .care-card p { margin: 10px 0 0; color: var(--muted); font-size: .92rem; }
@@ -145,6 +146,7 @@ img, svg { display: block; max-width: 100%; }
 .disclaimer { padding: 14px 0 22px; background: #103f2e; color: #c9d8ca; font-size: .74rem; }
 
 @media (max-width: 950px) {
+  .care-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .nav-links { gap: 14px; }
   .nav-links a { font-size: .84rem; }
   .nav-actions .button { padding-inline: 13px; }
@@ -172,6 +174,7 @@ img, svg { display: block; max-width: 100%; }
   .section-heading { margin-bottom: 34px; }
   .care-grid { grid-template-columns: 1fr; gap: 13px; }
   .care-card { min-height: auto; padding: 23px; }
+  .care-photo { width: calc(100% + 46px); margin: -23px -23px 18px; }
   .care-icon { margin-bottom: 15px; }
   .video-panel { grid-template-columns: 1fr; padding: 22px 20px; }
   .doctors-grid, .location-grid { grid-template-columns: 1fr; gap: 16px; }
